@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-template",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "typecheck": "turbo typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "clean": "turbo clean && rm -rf node_modules",
+    "intent:install": "intent install"
+  },
+  "devDependencies": {
+    "@tanstack/intent": "latest",
+    "prettier": "3.9.10",
+    "turbo": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
+}

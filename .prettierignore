@@ -1,0 +1,26 @@
+# Generated dependencies, outputs, and caches
+node_modules/
+.pnpm-store/
+.turbo/
+.next/
+out/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+
+# Package-manager generated files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Local configuration and operational state
+.env
+.env.*
+.vercel/
+.netlify/
+.idea/
+*.log
